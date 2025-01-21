@@ -51,3 +51,5 @@ def remove_event(name):
         else:
             return f"Evento '{event_name}' no encontrado en el municipio '{name}'", 404
     return f"Municipio '{name}' no encontrado", 404
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080)
