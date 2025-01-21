@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\OMEN\\Desktop\\Coordinación Alacanti\\Alacanti\\Alacanti\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Alacanti.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Alacanti.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\OMEN\\Desktop\\Coordinación Alacanti\\Alacanti\\Alacanti\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\OMEN\\Desktop\\Coordinación Alacanti\\Alacanti\\Alacanti\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\OMEN\\Desktop\\Coordinación Alacanti\\Alacanti\\Alacanti\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\OMEN\\Desktop\\Coordinación Alacanti\\Alacanti\\Alacanti\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Alacanti.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Alacanti.props",
+      "PackagePath": "build\\Alacanti.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Alacanti.props",
+      "PackagePath": "buildMultiTargeting\\Alacanti.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Alacanti.props",
+      "PackagePath": "buildTransitive\\Alacanti.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

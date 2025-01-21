@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ municipio.name }}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header>
+    <h1>{{ municipio.name }}</h1>
+</header>
+<main>
+    <section>
+        <h2>Historia</h2>
+        <p>{{ municipio.history }}</p>
+    </section>
+    <section>
+        <h2>Datos</h2>
+        <ul>
+            <li>Habitantes: {{ municipio.inhabitants }}</li>
+            <li>Afiliados: {{ municipio.affiliates }}</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Eventos</h2>
+        <ul>
+            {% for event in municipio.events %}
+                <li>
+                    {{ event }}
+                    <form action="/remove_event/{{ municipio.name }}" method="POST" style="display: inline;">
+                        <input type="hidden" name="event_name" value="{{ event }}">
+                        <button type="submit">Eliminar</button>
+                    </form>
+                </li>
+            {% endfor %}
+        </ul>
+        <form action="/add_event/{{ municipio.name }}" method="POST">
+            <input type="text" name="event_name" placeholder="Nuevo evento">
+            <button type="submit">Añadir</button>
+        </form>
+    </section>
+    <!-- Botón de volver -->
+    <button onclick="window.history.back()" class="btn-back">Atrás</button>
+</main>
+</body>
+</html>
