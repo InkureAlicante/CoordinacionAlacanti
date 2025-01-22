@@ -142,5 +142,11 @@ form {
         border: 2px solid #ddd; /* Borde alrededor del mapa */
         border-radius: 8px; /* Bordes redondeados */
     }
-
+    .flag-icon {
+        width: 24px; /* Ajusta el tamaño de la bandera */
+        height: 24px;
+        margin-right: 10px; /* Espacio entre la bandera y el texto */
+        vertical-align: middle; /* Alinea la bandera con el texto */
+        border-radius: 4px; /* Opcional: bordes redondeados */
+    }
 }
