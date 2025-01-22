@@ -15,10 +15,7 @@
     <ul class="municipios-list">
         {% for municipio in municipios %}
             <li>
-                <a href="/municipio/{{ municipio.name }}">
-                    <img src="/static/images/banderas/{{ municipio.name | replace(' ', '_') | lower }}.png" alt="Bandera de {{ municipio.name }}" class="flag-icon">
-                    {{ municipio.name }}
-                </a>
+                <a href="/municipio/{{ municipio.name }}">{{ municipio.name }}</a>
             </li>
         {% endfor %}
     </ul>
