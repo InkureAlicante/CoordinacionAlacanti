@@ -143,10 +143,12 @@ form {
         border-radius: 8px; /* Bordes redondeados */
     }
     .flag-icon {
-        width: auto; /* Deja que el ancho se ajuste automáticamente */
-        height: 1em; /* Ajusta la altura al tamaño del texto */
+        width: auto; /* El ancho se ajustará proporcionalmente */
+        height: 1.5em; /* Ajusta la altura al tamaño del texto */
+        max-width: 40px; /* Tamaño máximo para evitar imágenes grandes */
         margin-right: 10px; /* Espaciado entre la bandera y el texto */
         vertical-align: middle; /* Alinea verticalmente con el texto */
         object-fit: contain; /* Asegura que la imagen no se deforme */
+        border-radius: 4px; /* Bordes redondeados opcionales */
     }
 }
