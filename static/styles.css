@@ -133,5 +133,14 @@ form {
         font-size: 0.8em;
         padding: 6px 12px;
     }
+    /* Estilos para el mapa interactivo */
+    .interactive-map {
+        width: 100%; /* Escalar al ancho disponible */
+        max-width: 800px; /* Tamaño máximo */
+        margin: 20px auto; /* Centrado con margen */
+        display: block;
+        border: 2px solid #ddd; /* Borde alrededor del mapa */
+        border-radius: 8px; /* Bordes redondeados */
+    }
 
 }
