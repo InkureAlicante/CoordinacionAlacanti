@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request
 from models.municipio import Municipio
-
+from flask import redirect, url_for
 app = Flask(__name__)
 
 # Lista de municipios
@@ -39,7 +39,6 @@ def add_event(name):
 
 if __name__ == '__main__':
     app.run(debug=True)
-
 @app.route('/remove_event/<name>', methods=["POST"])
 def remove_event(name):
     municipio = next((m for m in municipios if m.name == name), None)
@@ -47,9 +46,7 @@ def remove_event(name):
         event_name = request.form.get("event_name")
         if event_name in municipio.events:
             municipio.remove_event(event_name)
-            return render_template("municipio.html", municipio=municipio)  # Refleja los cambios
-        else:
-            return f"Evento '{event_name}' no encontrado en el municipio '{name}'", 404
+        return redirect(url_for('municipio_detail', name=name))
     return f"Municipio '{name}' no encontrado", 404
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)

@@ -1,7 +1,10 @@
-﻿body {
+﻿/* Estilos generales */
+body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -11,46 +14,85 @@ header {
     text-align: center;
 }
 
+main {
+    padding: 1em;
+}
+
+/* Lista de municipios */
 .municipios-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Configuración para fila */
-    gap: 10px; /* Espaciado entre elementos */
-    justify-content: center; /* Centrar la fila en la página */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
 .municipios-list li {
-    margin: 0;
+    flex: 1 1 calc(33.33% - 10px);
+    max-width: 200px;
 }
 
 .municipios-list a {
     display: block;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #4CAF50;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1em;
+    transition: all 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .municipios-list a:hover {
     background-color: #45a049;
+    transform: scale(1.05);
 }
 
-}
+/* Botón "Atrás" */
 .btn-back {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
+    font-size: 1em;
+    transition: all 0.3s;
 }
 
 .btn-back:hover {
     background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .municipios-list li {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    .btn-back {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .municipios-list li {
+        flex: 1 1 calc(100% - 10px);
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+
+    .btn-back {
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }
 }
