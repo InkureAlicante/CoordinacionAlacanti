@@ -73,21 +73,39 @@ main {
 }
 
 /* Botón "Atrás" */
-.btn-back {
-    margin-top: 20px;
+button, .btn-back {
+    margin-top: 10px;
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 16px;
     transition: all 0.3s;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.btn-back:hover {
+button:hover, .btn-back:hover {
     background-color: #45a049;
     transform: scale(1.05);
+}
+
+/* Alinear el botón "Atrás" debajo del formulario */
+.btn-back {
+    display: block; /* Hace que ocupe una fila completa */
+    margin: 20px auto 0; /* Centra el botón y añade espacio superior */
+    text-align: center;
+}
+
+/* Asegurar que los elementos dentro del formulario se alineen correctamente */
+form {
+    display: flex;
+    gap: 10px; /* Espacio entre los elementos del formulario */
+    align-items: center; /* Alinea verticalmente los elementos */
 }
 
 /* Media Queries para dispositivos móviles */
