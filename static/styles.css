@@ -97,7 +97,7 @@ button:hover, .btn-back:hover {
 /* Alinear el botón "Atrás" debajo del formulario */
 .btn-back {
     display: block; /* Hace que ocupe una fila completa */
-    margin: 20px auto 0; /* Centra el botón y añade espacio superior */
+    margin: 30px auto 0; /* Centra el botón y añade espacio superior */
     text-align: center;
 }
 
