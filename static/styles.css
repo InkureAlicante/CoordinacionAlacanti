@@ -51,6 +51,26 @@ main {
     background-color: #45a049;
     transform: scale(1.05);
 }
+/* Estilo unificado para todos los botones */
+.button {
+    margin-top: 10px; /* Espaciado superior */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
 
 /* Botón "Atrás" */
 .btn-back {
