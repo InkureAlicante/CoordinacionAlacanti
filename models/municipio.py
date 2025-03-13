@@ -1,15 +1,13 @@
 # -*- coding: utf-8 -*-
 class Municipio:
-    def __init__(self, name, history, inhabitants, affiliates, events, info_tables, coordinator, vice_coordinator, team_members):
+    def __init__(self, name, history, inhabitants, affiliates, events,coordinador):
         self.name = name
         self.history = history
         self.inhabitants = inhabitants
         self.affiliates = affiliates
         self.events = events
-        self.info_tables = info_tables
-        self.coordinator = coordinator
-        self.vice_coordinator = vice_coordinator
-        self.team_members = team_members
+        self.coordinador = coordinador
+
 
     def add_event(self, event_name):
         self.events.append(event_name)
