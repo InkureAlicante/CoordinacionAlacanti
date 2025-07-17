@@ -251,7 +251,7 @@ def municipio_detail(name):
     session.close()
     if municipio:
         municipio.events = [e.nombre for e in eventos]
-        return render_template("municipio.html", municipio=municipio)
+        return render_template("municipio.html", municipio=municipio, resultados=resultados)
     return "Municipio no encontrado", 404
 
 @app.route('/add_event/<name>', methods=["POST"])
