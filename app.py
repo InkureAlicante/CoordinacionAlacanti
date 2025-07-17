@@ -1,3 +1,222 @@
+resultados = {
+    "Alicante": {
+        "votos": {
+            "PP": 59896,
+            "PSOE": 38154,
+            "VOX": 21083,
+            "Podemos": 7388,
+            "Compromís": 10838,
+            "Otros": 7961
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    },
+    "Campello": {
+        "votos": {
+            "PP": 4044,
+            "PSOE": 2228,
+            "VOX": 1499,
+            "Podemos": 1069,
+            "Compromís": 1387,
+            "Otros": 2184
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    },
+    "San Juan": {
+        "votos": {
+            "PP": 4513,
+            "PSOE": 4101,
+            "VOX": 1284,
+            "Podemos": 504,
+            "Compromís": 967,
+            "Otros": 281
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    },
+    "Mutxamel": {
+        "votos": {
+            "PP": 4787,
+            "PSOE": 3669,
+            "VOX": 1569,
+            "Podemos": 803,
+            "Compromís": 1007,
+            "Otros": 467
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    },
+    "Aguas De Busot": {
+        "votos": {
+            "PP": 88,
+            "PSOE": 383,
+            "VOX": 20,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 68
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    },
+    "San Vicente": {
+        "votos": {
+            "PP": 8695,
+            "PSOE": 8101,
+            "VOX": 4917,
+            "Podemos": 2343,
+            "Compromís": 1897,
+            "Otros": 950
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    },
+    "Busot": {
+        "votos": {
+            "PP": 1054,
+            "PSOE": 314,
+            "VOX": 59,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    },
+    "Jijona": {
+        "votos": {
+            "PP": 705,
+            "PSOE": 1452,
+            "VOX": 216,
+            "Podemos": 0,
+            "Compromís": 548,
+            "Otros": 534
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    },
+    "Tibi": {
+        "votos": {
+            "PP": 350,
+            "PSOE": 503,
+            "VOX": 55,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 196
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    },
+    "Torremanzanas": {
+        "votos": {
+            "PP": 198,
+            "PSOE": 101,
+            "VOX": 8,
+            "Podemos": 0,
+            "Compromís": 78,
+            "Otros": 74
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    },
+    "Agress": {
+        "votos": {
+            "PP": 198,
+            "PSOE": 56,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 155,
+            "Otros": 0
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    },
+    "Total Por Partido": {
+        "votos": {
+            "PP": 84528,
+            "PSOE": 59062,
+            "VOX": 30710,
+            "Podemos": 12107,
+            "Compromís": 16877,
+            "Otros": 12715
+        },
+        "concejales": {
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
+        }
+    }
+}
+
 
 from flask import Flask, render_template, request, redirect, url_for
 from models.municipio import Municipio
