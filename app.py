@@ -9,11 +9,11 @@ resultados = {
             "Otros": 7961
         },
         "concejales": {
-            "PP": 0,
-            "PSOE": 0,
-            "VOX": 0,
-            "Podemos": 0,
-            "Compromís": 0,
+            "PP": 39477,
+            "PSOE": 37174,
+            "VOX": 8578,
+            "Podemos": 12224,
+            "Compromís": 9042,
             "Otros": 0
         }
     },
@@ -27,15 +27,15 @@ resultados = {
             "Otros": 2184
         },
         "concejales": {
-            "PP": 0,
-            "PSOE": 0,
-            "VOX": 0,
-            "Podemos": 0,
-            "Compromís": 0,
+            "PP": 3324,
+            "PSOE": 1952,
+            "VOX": 812,
+            "Podemos": 634,
+            "Compromís": 1378,
             "Otros": 0
         }
     },
-    "San Juan": {
+    "San Juan de Alicante": {
         "votos": {
             "PP": 4513,
             "PSOE": 4101,
@@ -45,11 +45,11 @@ resultados = {
             "Otros": 281
         },
         "concejales": {
-            "PP": 0,
-            "PSOE": 0,
-            "VOX": 0,
-            "Podemos": 0,
-            "Compromís": 0,
+            "PP": 2726,
+            "PSOE": 2974,
+            "VOX": 741,
+            "Podemos": 564,
+            "Compromís": 934,
             "Otros": 0
         }
     },
@@ -63,15 +63,15 @@ resultados = {
             "Otros": 467
         },
         "concejales": {
-            "PP": 0,
-            "PSOE": 0,
-            "VOX": 0,
-            "Podemos": 0,
-            "Compromís": 0,
+            "PP": 3124,
+            "PSOE": 2993,
+            "VOX": 800,
+            "Podemos": 847,
+            "Compromís": 940,
             "Otros": 0
         }
     },
-    "Aguas De Busot": {
+    "Augues de Busot": {
         "votos": {
             "PP": 88,
             "PSOE": 383,
@@ -81,8 +81,8 @@ resultados = {
             "Otros": 68
         },
         "concejales": {
-            "PP": 0,
-            "PSOE": 0,
+            "PP": 80,
+            "PSOE": 325,
             "VOX": 0,
             "Podemos": 0,
             "Compromís": 0,
@@ -99,11 +99,11 @@ resultados = {
             "Otros": 950
         },
         "concejales": {
-            "PP": 0,
-            "PSOE": 0,
-            "VOX": 0,
-            "Podemos": 0,
-            "Compromís": 0,
+            "PP": 3827,
+            "PSOE": 7994,
+            "VOX": 1867,
+            "Podemos": 1596,
+            "Compromís": 1423,
             "Otros": 0
         }
     },
@@ -117,11 +117,11 @@ resultados = {
             "Otros": 0
         },
         "concejales": {
-            "PP": 0,
-            "PSOE": 0,
+            "PP": 798,
+            "PSOE": 177,
             "VOX": 0,
             "Podemos": 0,
-            "Compromís": 0,
+            "Compromís": 223,
             "Otros": 0
         }
     },
@@ -135,11 +135,11 @@ resultados = {
             "Otros": 534
         },
         "concejales": {
-            "PP": 0,
+            "PP": 632,
             "PSOE": 0,
             "VOX": 0,
             "Podemos": 0,
-            "Compromís": 0,
+            "Compromís": 511,
             "Otros": 0
         }
     },
@@ -153,8 +153,8 @@ resultados = {
             "Otros": 196
         },
         "concejales": {
-            "PP": 0,
-            "PSOE": 0,
+            "PP": 430,
+            "PSOE": 404,
             "VOX": 0,
             "Podemos": 0,
             "Compromís": 0,
@@ -171,21 +171,21 @@ resultados = {
             "Otros": 74
         },
         "concejales": {
+            "PP": 163,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 90,
+            "Otros": 0
+        }
+    },
+    "Agres": {
+        "votos": {
             "PP": 0,
             "PSOE": 0,
             "VOX": 0,
             "Podemos": 0,
             "Compromís": 0,
-            "Otros": 0
-        }
-    },
-    "Agress": {
-        "votos": {
-            "PP": 198,
-            "PSOE": 56,
-            "VOX": 0,
-            "Podemos": 0,
-            "Compromís": 155,
             "Otros": 0
         },
         "concejales": {
@@ -197,14 +197,14 @@ resultados = {
             "Otros": 0
         }
     },
-    "Total Por Partido": {
+    "La Torre de les Maçanes": {
         "votos": {
-            "PP": 84528,
-            "PSOE": 59062,
-            "VOX": 30710,
-            "Podemos": 12107,
-            "Compromís": 16877,
-            "Otros": 12715
+            "PP": 0,
+            "PSOE": 0,
+            "VOX": 0,
+            "Podemos": 0,
+            "Compromís": 0,
+            "Otros": 0
         },
         "concejales": {
             "PP": 0,
