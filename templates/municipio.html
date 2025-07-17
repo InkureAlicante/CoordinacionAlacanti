@@ -16,6 +16,34 @@
         <h2>Historia</h2>
         <p>{{ municipio.history | safe }}</p>
     </section>
+
+    <section>
+        <h2>Resultados</h2>
+        {% if municipio.name in resultados %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Partido</th>
+                    <th>Votos</th>
+                    <th>Concejales</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for partido in ['PP', 'PSOE', 'VOX', 'Podemos', 'Compromís', 'Otros'] %}
+                <tr>
+                    <td>{{ partido }}</td>
+                    <td>{{ resultados[municipio.name]['votos'][partido] }}</td>
+                    <td>{{ resultados[municipio.name]['concejales'][partido] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <p><strong>Nota:</strong> A VOX le faltaron X votos para obtener otro concejal.</p>
+        {% else %}
+        <p>No hay datos disponibles.</p>
+        {% endif %}
+    </section>
+
     <section>
         <h2>Datos</h2>
         <ul>
