@@ -9,11 +9,11 @@ resultados = {
             "Otros": 7961
         },
         "concejales": {
-            "PP": 39477,
-            "PSOE": 37174,
-            "VOX": 8578,
-            "Podemos": 12224,
-            "Compromís": 9042,
+            "PP": 14,
+            "PSOE": 8,
+            "VOX": 4,
+            "Podemos": 1,
+            "Compromís": 2,
             "Otros": 0
         }
     },
@@ -27,11 +27,11 @@ resultados = {
             "Otros": 2184
         },
         "concejales": {
-            "PP": 3324,
-            "PSOE": 1952,
-            "VOX": 812,
-            "Podemos": 634,
-            "Compromís": 1378,
+            "PP": 8,
+            "PSOE": 4,
+            "VOX": 2,
+            "Podemos": 1,
+            "Compromís": 2,
             "Otros": 0
         }
     },
@@ -45,11 +45,11 @@ resultados = {
             "Otros": 281
         },
         "concejales": {
-            "PP": 2726,
-            "PSOE": 2974,
-            "VOX": 741,
-            "Podemos": 564,
-            "Compromís": 934,
+            "PP": 6,
+            "PSOE": 5,
+            "VOX": 2,
+            "Podemos": 1,
+            "Compromís": 1,
             "Otros": 0
         }
     },
@@ -63,11 +63,11 @@ resultados = {
             "Otros": 467
         },
         "concejales": {
-            "PP": 3124,
-            "PSOE": 2993,
-            "VOX": 800,
-            "Podemos": 847,
-            "Compromís": 940,
+            "PP": 8,
+            "PSOE": 5,
+            "VOX": 2,
+            "Podemos": 1,
+            "Compromís": 1,
             "Otros": 0
         }
     },
@@ -81,8 +81,8 @@ resultados = {
             "Otros": 68
         },
         "concejales": {
-            "PP": 80,
-            "PSOE": 325,
+            "PP": 1,
+            "PSOE": 4,
             "VOX": 0,
             "Podemos": 0,
             "Compromís": 0,
@@ -99,11 +99,11 @@ resultados = {
             "Otros": 950
         },
         "concejales": {
-            "PP": 3827,
-            "PSOE": 7994,
-            "VOX": 1867,
-            "Podemos": 1596,
-            "Compromís": 1423,
+            "PP": 9,
+            "PSOE": 8,
+            "VOX": 3,
+            "Podemos": 1,
+            "Compromís": 1,
             "Otros": 0
         }
     },
@@ -117,11 +117,11 @@ resultados = {
             "Otros": 0
         },
         "concejales": {
-            "PP": 798,
-            "PSOE": 177,
+            "PP": 7,
+            "PSOE": 2,
             "VOX": 0,
             "Podemos": 0,
-            "Compromís": 223,
+            "Compromís": 0,
             "Otros": 0
         }
     },
@@ -135,11 +135,11 @@ resultados = {
             "Otros": 534
         },
         "concejales": {
-            "PP": 632,
-            "PSOE": 0,
-            "VOX": 0,
+            "PP": 3,
+            "PSOE": 5,
+            "VOX": 1,
             "Podemos": 0,
-            "Compromís": 511,
+            "Compromís": 2,
             "Otros": 0
         }
     },
@@ -153,8 +153,8 @@ resultados = {
             "Otros": 196
         },
         "concejales": {
-            "PP": 430,
-            "PSOE": 404,
+            "PP": 3,
+            "PSOE": 4,
             "VOX": 0,
             "Podemos": 0,
             "Compromís": 0,
@@ -171,11 +171,11 @@ resultados = {
             "Otros": 74
         },
         "concejales": {
-            "PP": 163,
-            "PSOE": 0,
+            "PP": 4,
+            "PSOE": 3,
             "VOX": 0,
             "Podemos": 0,
-            "Compromís": 90,
+            "Compromís": 0,
             "Otros": 0
         }
     },
@@ -189,8 +189,8 @@ resultados = {
             "Otros": 0
         },
         "concejales": {
-            "PP": 0,
-            "PSOE": 0,
+            "PP": 3,
+            "PSOE": 4,
             "VOX": 0,
             "Podemos": 0,
             "Compromís": 0,
