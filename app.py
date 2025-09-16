@@ -6,7 +6,8 @@ resultados = {
             "VOX": 21083,
             "Podemos": 7388,
             "Compromís": 10838,
-            "Otros": 7961
+            "Otros": 7961,
+            "LISTA": "29+3"
         },
         "concejales": {
             "PP": 14,
@@ -24,7 +25,8 @@ resultados = {
             "VOX": 1499,
             "Podemos": 1069,
             "Compromís": 1387,
-            "Otros": 2184
+            "Otros": 2184,
+            "LISTA": "21+3"
         },
         "concejales": {
             "PP": 8,
@@ -42,7 +44,8 @@ resultados = {
             "VOX": 1284,
             "Podemos": 504,
             "Compromís": 967,
-            "Otros": 281
+            "Otros": 281.
+            "LISTA": "21+3"
         },
         "concejales": {
             "PP": 6,
@@ -60,7 +63,8 @@ resultados = {
             "VOX": 1569,
             "Podemos": 803,
             "Compromís": 1007,
-            "Otros": 467
+            "Otros": 467,
+            "LISTA": "21+2"
         },
         "concejales": {
             "PP": 8,
@@ -78,7 +82,8 @@ resultados = {
             "VOX": 20,
             "Podemos": 0,
             "Compromís": 0,
-            "Otros": 68
+            "Otros": 68,
+            "LISTA": "9+3"
         },
         "concejales": {
             "PP": 1,
@@ -96,7 +101,8 @@ resultados = {
             "VOX": 4917,
             "Podemos": 2343,
             "Compromís": 1897,
-            "Otros": 950
+            "Otros": 950,
+            "LISTA": "25+3"
         },
         "concejales": {
             "PP": 9,
@@ -115,6 +121,7 @@ resultados = {
             "Podemos": 0,
             "Compromís": 0,
             "Otros": 0
+            "LISTA": "11+3"
         },
         "concejales": {
             "PP": 7,
@@ -132,7 +139,8 @@ resultados = {
             "VOX": 216,
             "Podemos": 0,
             "Compromís": 548,
-            "Otros": 534
+            "Otros": 534,
+            "LISTA": "13+3"
         },
         "concejales": {
             "PP": 3,
@@ -150,7 +158,8 @@ resultados = {
             "VOX": 55,
             "Podemos": 0,
             "Compromís": 0,
-            "Otros": 196
+            "Otros": 196,
+            "LISTA": "9+3"
         },
         "concejales": {
             "PP": 3,
@@ -168,7 +177,8 @@ resultados = {
             "VOX": 8,
             "Podemos": 0,
             "Compromís": 78,
-            "Otros": 74
+            "Otros": 74,
+            "LISTA": "0"
         },
         "concejales": {
             "PP": 4,
@@ -195,25 +205,8 @@ resultados = {
             "Podemos": 0,
             "Compromís": 0,
             "Otros": 0
-        }
-    },
-    "La Torre de les Maçanes": {
-        "votos": {
-            "PP": 0,
-            "PSOE": 0,
-            "VOX": 0,
-            "Podemos": 0,
-            "Compromís": 0,
-            "Otros": 0
         },
-        "concejales": {
-            "PP": 0,
-            "PSOE": 0,
-            "VOX": 0,
-            "Podemos": 0,
-            "Compromís": 0,
-            "Otros": 0
-        }
+   
     }
 }
 
