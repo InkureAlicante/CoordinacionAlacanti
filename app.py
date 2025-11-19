@@ -239,6 +239,19 @@ municipios = [
     Municipio("Tibi", "Tibi es conocido por su embalse, uno de los más antiguos de Europa, construido en el siglo XVI. Fiestas tradicionales: Las fiestas en honor a San Juan Bautista se celebran en junio, con actos religiosos y festivos. Aspectos importantes: El embalse de Tibi es una obra de ingeniería histórica que aún se conserva. Gobierno actual: Información no disponible en las fuentes proporcionadas.", 1803, 8, "46", [], ["Mesa 1"], "Miguel Corti", "9+3", ["Miembro A", "Miembro B"]),
     Municipio("Torremanzanas", "Torremanzanas, conocida en valenciano como La Torre de les Maçanes, tiene orígenes medievales con tradiciones agrícolas que aún se conservan. Sus fiestas patronales en honor a Santa Ana se celebran en julio, destacando actos religiosos y populares.", 744, 0, "43", [], ["Mesa 1"], "Coordinador 1", "Vice 1", ["Miembro A", "Miembro B"]),
     Municipio("Agress", "Agres, en la comarca de El Comtat. Su historia está marcada por su origen musulmán, con referencias a su existencia en documentos del siglo XIII, cuando fue conquistado por el rey Jaime I de Aragón durante la Reconquista. Posteriormente, el municipio pasó a manos cristianas y fue repoblado tras la expulsión de los moriscos en el siglo XVII. Uno de los elementos más destacados de su historia es el Santuario de la Mare de Déu d’Agres, un importante lugar de peregrinación, ligado a la aparición de la Virgen en el siglo XV.Fiestas en honor a la Virgen de Agres (septiembre)Son las festividades más importantes del pueblo, en honor a la Mare de Déu d’Agres.Moros y Cristianos (último fin de semana de agosto) Fiesta de Sant Antoni (enero) Se encienden hogueras en honor a San Antonio Abad y se realiza la tradicional bendición de los animales. Feria de Santa Cecília (noviembre)Gobierno Municipal está gobernado en la actualidad por el Partido Popular (PP), con Josep Manel Francés Perales como alcalde.", 580, 0, "71", [], ["7+3"], "Coordinador 1", "Vice 1", ["Miembro A", "Miembro B"]),
+    Municipio(
+    "Agost",
+    history="Texto que quieras poner sobre Agost...",
+    inhabitants=aprox_habitantes,      # el número que tú manejes
+    affiliates=afiliados_vox_agost,    # si tienes el dato
+    events=[],
+    info_tables={},
+    coordinador="Nombre coordinador",
+    LISTA=[],
+    votos_necesarios=71,               # los que faltaron para 1 concejal
+    team_members=[]
+),
+
 ]
 
 @app.route('/')
