@@ -242,13 +242,7 @@ municipios = [
     Municipio(
     "Agost",
     history="Texto que quieras poner sobre Agost...",
-    inhabitants=aprox_habitantes,      # el número que tú manejes
-    affiliates=afiliados_vox_agost,    # si tienes el dato
-    events=[],
-    info_tables={},
-    coordinador="Nombre coordinador",
-    LISTA=[],
-    votos_necesarios=71,               # los que faltaron para 1 concejal
+    inhabitants=4.900,    affiliates= 4, events=[],  info_tables={}, coordinador="Nombre coordinador", LISTA=[], votos_necesarios=71,               # los que faltaron para 1 concejal
     team_members=[]
 ),
 
