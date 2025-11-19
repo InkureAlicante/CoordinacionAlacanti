@@ -196,7 +196,26 @@ resultados = {
             "Compromís": 0,
             "Otros": 0
         },
-   
+   "Agost": {
+    "total_concejales": 11,
+    "votos": {
+        "PP": 1533,
+        "PSOE": 396,
+        "FP": 350,
+        "ACORD": 260,
+        "VOX": 128,
+        "CS": 124,
+    },
+    "concejales": {
+        "PP": 7,
+        "PSOE": 2,
+        "FP": 1,
+        "ACORD": 1,
+        "VOX": 0,
+        "CS": 0,
+    },
+   }
+
     }
 }
 
